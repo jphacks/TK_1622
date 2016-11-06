@@ -47,7 +47,7 @@
 
 #### フレームワーク・ライブラリ・モジュール
 * jQuery mobile
-* firebase cloud messagin
+* firebase cloud messaging
 
 #### デバイス
 * Android
