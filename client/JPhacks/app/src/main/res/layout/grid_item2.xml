@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/FrameImage2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:background="@color/mt_green"
+        android:orientation="vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="2dp">
+
+
+        <TextView
+            android:id="@+id/GridCompany2"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:background="@color/mt_green"
+        android:layout_below="@id/FrameImage2"
+        android:orientation="vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/GridTitle2"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/GridSubTitle2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/GridTitle2" />
+    </LinearLayout>
+</RelativeLayout>

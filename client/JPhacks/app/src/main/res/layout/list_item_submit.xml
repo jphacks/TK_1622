@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+     <ImageView
+         android:id="@+id/imageView"
+         android:src="@drawable/favicon"
+         android:layout_width="64dp"
+         android:layout_height="56dp"
+         android:layout_marginRight="16dp"/>
+
+     <TextView
+         android:id="@+id/submittext"
+         android:paddingTop="20dp"
+         android:textSize="24sp"
+         android:textColor="#999999"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+
+
+</LinearLayout>

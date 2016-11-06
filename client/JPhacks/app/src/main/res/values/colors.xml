@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#44aeea</color>
+    <color name="colorPrimaryDark">#44aeea</color>
+    <color name="colorAccent">#019fe6</color>
+    <color name="mt_white">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="mt_black">#ffffff</color>
+    <color name="mt_green">#44aeea</color>
+    <color name="mt_red">#019fe6</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
